@@ -1,1 +1,6 @@
-
+type: material
+name: alloy
+description: a conductive ore,using in power building
+hardness: 1
+cost: 1
+color: ffd659

@@ -1,0 +1,8 @@
+type: resource
+name: uranium
+description: ore using in advence combustion,heel radioactive
+hardness: 1
+cost: 1
+color: 388c2b
+explosiveness: 0.45
+radioactivity: 1.2

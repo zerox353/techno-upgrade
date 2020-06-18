@@ -1,0 +1,8 @@
+type: resource
+name: uraninite
+description: ore using in advence combustion,heel radioactive,no usable
+hardness: 4
+cost: 3
+color: 658064
+explosiveness: 0.4
+radioactivity: 0.2

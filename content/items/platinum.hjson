@@ -1,0 +1,6 @@
+type: material
+name: platinum
+description: ore using in resource production and ammo
+hardness: 3
+cost: 2
+color: b6bec4

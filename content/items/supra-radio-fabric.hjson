@@ -1,0 +1,9 @@
+type: material 
+name: supra radio. fabric
+description: supra radioactif fabric using in advence bulding and advence technology 
+hardness: 1
+cost: 1
+color: c1e6dc
+explosiveness: 1
+radioactivity: 2
+flammability: 0.1

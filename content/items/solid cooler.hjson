@@ -1,0 +1,6 @@
+type: resource 
+name: solid cooler
+description: solid cyrofluid, using as ammunition
+hardness: 1
+cost: 1
+color: 94f9ff

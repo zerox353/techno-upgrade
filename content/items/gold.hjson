@@ -1,0 +1,6 @@
+type: material
+name: gold
+description: basic ore 
+hardness: 2
+cost: 1
+color: ffe456
