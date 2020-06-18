@@ -1,1 +1,78 @@
-
+{
+	"name": "atoma"
+    "description": "shoots long range, high powered bullets"
+  "type": "BurstTurret",
+	"health": 1200, 
+	"size": 3,
+	"reload": 120,
+	"range": 350,
+	"inaccuracy": 1,
+	"rotatespeed": 30,
+	"shots": 1,
+	"burstSpacing": 3,
+	"targetAir": true, 
+	"targetGround": true,
+	"category": "turret",
+    "shootCone": 25,
+	"ammo": {
+    "titanium": {
+			"damage": 180,
+	    "lifetime": 120,
+			"speed": 11,
+			"reloadMultiplier": 0.5,
+			"splashDamageRadius": 24,
+			"splashDamage": 22,
+			"bulletWidth": 10,
+			"bulletHeight": 12,
+			"hitEffect": "none",
+			"ammoMultiplier": 5
+		},
+		"gold": {
+			"damage": 160,
+	    "lifetime": 120,
+			"speed": 12,
+			"reloadMultiplier": 0.5,
+			"splashDamageRadius": 24,
+			"splashDamage": 22,
+			"bulletWidth": 10,
+			"bulletHeight": 12,
+			"fragBullet": "glassFrag",
+			"fragBullets": 6,
+			"hitEffect": "flakExplosion",
+			"ammoMultiplier": 5
+		},
+		"pyratite": {
+			"damage": 175,
+	    "lifetime": 120,
+			"speed": 11,
+      "reloadMultiplier": 0.5,
+			"splashDamageRadius": 15,
+			"splashDamage": 27,
+			"bulletWidth": 10,
+			"bulletHeight": 12,
+			"hitEffect": "none",
+			"ammoMultiplier": 5
+			"status": "burning" 
+		},
+		"solid cooler": {
+			"damage": 170,
+	    "lifetime": 120,
+			"speed": 10,
+			"reloadMultiplier": 0.5,
+			"splashDamageRadius": 26,
+			"splashDamage": 30,
+			"bulletWidth": 10,
+			"bulletHeight": 12,
+			"hitEffect": "none",
+			"ammoMultiplier": 5
+			"status": "freezing"
+		},
+	},
+	"requirements": [
+		{ "item": "graphite", "amount": 100 },
+		{ "item": "gold", "amount": 100 },
+		{ "item": "plastanium", "amount": 50},
+		{ "item": "platinum", "amount":50}
+	],
+	"research": "scatter"
+}

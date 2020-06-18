@@ -1,0 +1,64 @@
+{
+    "type": "DoubleTurret",
+    "name": "fusion",
+   "health": 1200,
+    "size": 3,
+    "reload": 10,
+    "restitution": 0.01,
+    "range": 250,
+    "ammoUseEffect": "shellEjectSmall",
+    "inaccuracy": 4,
+    "shots": 3,
+    "rotatespeed": 5,
+    "shotWidth": 1,
+    "ammo": {
+        "platinum": {
+            "speed": 13,
+            "lifetime": 60,
+            "damage": 10,
+            "bulletWidth": 5,
+            "bulletHeight": 8,
+        },
+        "gold": {
+            "speed": 12,
+            "lifetime": 60,
+            "damage": 9,
+            "bulletWidth": 5,
+            "bulletHeight": 8,
+		        "fragBullet": "glassFrag",
+		      	"fragBullets": 6,
+        },
+        "pyratite": {
+            "speed": 12,
+            "lifetime": 60,
+            "damage": 9,
+            "bulletWidth": 5,
+            "bulletHeight": 8,
+            "status": "burning",
+      },
+        "solid cooler":
+        {
+            "speed": 11,
+            "lifetime": 60,
+            "damage": 9,
+            "bulletWidth": 5,
+            "bulletHeight": 8,
+            "status": "freezing",
+        }
+        "copper": {
+            "speed": 12,
+            "lifetime": 60,
+            "damage": 9,
+            "bulletWidth": 5,
+            "bulletHeight": 8,
+        },
+    },
+    "requirements": [
+        { "item": "gold", "amount": 150 },
+        { "item": "platinum", "amount": 50 }
+        { "item": "thorium", "amount": 100 },
+        { "item": "plastanium", "amount": 50 },
+  ],
+    "category": "turret"
+    "research": "duo" 
+}
