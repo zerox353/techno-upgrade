@@ -1,0 +1,32 @@
+type: GenericCrafter 
+name: "advence press"
+description: "advence press,more efficiency,need water and more power to function"
+liquidCapacity: 50
+itemCapacity: 20
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: producesmoke
+consumes: {
+  power: 4
+  liquid: water/0.1
+  items: {
+  items: [
+      coal/10
+   ]
+}
+ 
+}
+requirements: [
+  silicon/120
+  platinum/120
+  diamond/100
+  phase-fabric/50
+]
+category: crafting
+research: cryofluidmixer
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: diamond/2

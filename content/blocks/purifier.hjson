@@ -1,0 +1,27 @@
+type: GenericSmelter
+name: purifier
+description: purified uraninite and extract uranium 
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 60
+updateEffect: reactorsmoke
+consumes: {
+  power: 0.6
+  items: {
+    items: [
+      uraninite/2
+    ]
+  }
+}
+requirements: [
+  lead/200
+  gold/120
+  platinum/110
+]
+category: crafting 
+research: pyratite-mixer 
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: uranium/1

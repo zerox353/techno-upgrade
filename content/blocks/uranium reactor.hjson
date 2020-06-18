@@ -1,0 +1,30 @@
+type: nuclearReactor
+name: "uranium reactor"
+description: "generates significant amounts of power from uranium. requires constant cooling. will explode violently if insuffient amounts of coolant are supplices. power outpud depends on fullness, whit base power generate at full capacity"
+size: 3
+health: 800
+hasItems: true
+hasLiquids: true
+hasPower: true
+itemCapacity: 20
+liquidCapacity: 35
+itemDuration: 500
+
+requirements: [
+    gold/200,
+    alloy/120,
+    platinum/120,
+    silicon/100,
+]
+
+consumes: {
+  liquid: cryofluid/0.05
+    items: {
+    items: [
+      uranium/1
+    ]
+  }
+}
+category: power
+research: turbine-generator
+powerProduction: 17

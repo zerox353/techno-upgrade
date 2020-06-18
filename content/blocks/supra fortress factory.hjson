@@ -1,0 +1,25 @@
+name: supra fortress factory 
+description: produces advence fortress units
+type: UnitFactory
+unitType: supra-fortress
+size: 3
+produceTime: 2400
+maxSpawn: 3
+consumes: {
+  power: 1.7
+  items: {
+    items: [
+      silicon/25
+      graphite/15
+      phase-fabric/1
+    ]
+  }
+}
+category: units
+research: dagger-factory
+requirements: [
+  lead/150
+  thorium/50
+  silicon/100
+  phase-fabric/20
+]

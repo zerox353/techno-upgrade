@@ -1,0 +1,25 @@
+name: supra revenant factory 
+description: produces advence revenant units
+type: UnitFactory
+unitType: supra-revenant 
+size: 4
+produceTime: 2400
+consumes: {
+  power: 3.5
+  items: {
+    items: [
+      silicon/45
+      titanium/40
+      phase-fabric/2
+    ]
+  }
+}
+category: units
+research: dagger-factory
+requirements: [
+  lead/200
+  titanium/200
+  silicon/200
+  plastanium/50
+  phase-fabric/20
+]

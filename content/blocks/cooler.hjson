@@ -1,1 +1,30 @@
-
+type: GenericSmelter 
+name: cooler
+description: cooled cryofluid 
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 50
+updateEffect: hitLiquid
+consumes: {
+  power: 0.5
+  liquid: cryofluid/0.1
+  items: {
+  items: [
+      sand/1
+   ]
+}
+ 
+}
+requirements: [
+  platinum/50
+  metaglass/20
+  gold/100
+]
+category: crafting
+research: cryofluidmixer
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: solid cooler/1

@@ -1,0 +1,13 @@
+name: "large supra radio fabric wall"
+description: "an very extremely durable défensive block, deflects most bullets upon impact.
+spans multiple tiles"
+type: "DeflectorWall"
+maxDamageDeflect: 50
+health: 4000
+size: 2
+insulated: true
+requirements: [
+  "supra-radio-fabric/24"
+]
+category: "defense"
+research: "router"

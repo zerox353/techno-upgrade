@@ -1,0 +1,27 @@
+type: GenericSmelter
+name: alloy weaver
+description: us copper and gold to a conductive ore 
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 70
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.6
+  items: {
+    items: [
+      copper/1
+      gold/1
+    ]
+  }
+}
+requirements: [
+  silicon/60
+  graphite/50
+]
+category: crafting
+research: pyratite-mixer
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: alloy/1

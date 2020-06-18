@@ -1,0 +1,19 @@
+name: overlord ship pad
+description: provides transformation into a powerfull attack mech and farmer mech. use by tapping while standing on it
+type: MechPad
+mech: overlord
+size: 3
+consumes: {
+  power: 3
+}
+category: upgrade
+research: delta-mech-pad
+requirements: [
+  lead/250
+  platinum/350
+  plastanium/200
+  surge-alloy/120
+  diamond/200
+  supra-radio-fabric/100
+]
+

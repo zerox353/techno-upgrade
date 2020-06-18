@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: diamond press
+description: compresses shunks of graphite into pure diamond 
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 120
+updateEffect: smeltsmoke
+consumes: {
+  power: 3
+  items: {
+    items: [
+      graphite/3
+    ]
+  }
+}
+requirements: [
+  silicon/80
+  graphite/80
+  gold/70
+  platinum/50
+]
+category: crafting
+research: pyratite-mixer
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: diamond/1
