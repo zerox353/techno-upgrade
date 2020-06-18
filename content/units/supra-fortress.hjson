@@ -1,0 +1,23 @@
+name: supra fortress
+description: advence version from fortress
+type: groundUnit
+speed: 0.05
+flying: false
+targetAir: false
+targetGround: true
+health: 1000
+mass: 15
+rotate: true
+engineOffset: 5.5
+weaponOffsetX: 7
+range: 160
+weapon: {
+  name: supra fortress armement
+  lenght: 5
+  liveTime: 300
+  knockback: 1
+  reload: 80
+  shots: 2
+  alternate: true
+  bullet: artilleryUnit
+}
