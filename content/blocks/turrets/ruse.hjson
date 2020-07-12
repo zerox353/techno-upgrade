@@ -1,0 +1,59 @@
+{
+	type: "ItemTurret"
+	name: "Ruse"
+	description: "A small, close-range turret."
+	health: 390
+	size: 1
+	reload: 35
+	shots: 5
+  inaccuracy: 10
+	range: 80
+	itemCapacity: 8
+  targetAir: "false"
+	shootSound: "splash"
+	rotatespeed: 2.5
+	ammo: {
+  	"copper": {
+			type: "BasicBulletType"
+			speed: 4
+			lifetime: 25
+			bulletWidth: 6
+			bulletHeight: 6
+			damage: 8
+		},
+	  "graphite": {
+			type: "BasicBulletType"
+			speed: 4
+			lifetime: 26
+			bulletWidth: 6
+			bulletHeight: 6
+			damage: 10
+		},
+	  "pyratite": {
+			type: "BasicBulletType"
+			speed: 4
+			lifetime: 24
+			bulletWidth: 6
+			bulletHeight: 6
+			damage: 9
+      frontColor: f5a53d
+      backColor: f55a3b
+			status: burning
+		},
+	  "silicon": {
+			type: "BasicBulletType"
+			speed: 4
+			lifetime: 24
+			bulletWidth: 6
+			bulletHeight: 6
+			damage: 9
+			homingPower: 2
+		},
+	},
+	requirements: [
+		{ item: "copper", amount: 35 },
+		{ item: "graphite", amount: 20 },
+	],
+	category: "turret"
+	research: "scorch"
+	}

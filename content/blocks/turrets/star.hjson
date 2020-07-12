@@ -1,0 +1,67 @@
+{
+	type: BurstTurret
+	name: Star
+	description: A small, large-range turret. Fires small bullets but at a devastating speed and precise.
+	health: 850
+	size: 2
+	reload: 200
+	range: 290
+  inaccuracy: 0
+  shots: 1
+	shootSound: shoot
+  heatColor: Color.purple
+	rotatespeed: 4
+	ammo: {
+		"scrap": {
+			type: BasicBulletType
+			speed: 20
+			lifetime: 200
+			bulletWidth: 2
+			bulletHeight: 2
+			damage: 80
+      fragBullet: glassFrag
+			fragBullets: 6
+		},
+	  "lead": {
+			type: BasicBulletType
+			speed: 20
+			lifetime: 200
+			bulletWidth: 2
+			bulletHeight: 2
+			damage: 85
+      fragBullet: glassFrag
+			fragBullets: 5
+		},
+    "pyratite": {
+			type: BasicBulletType
+			speed: 20
+			lifetime: 200
+			bulletWidth: 2
+			bulletHeight: 2
+			damage: 80
+      fragBullet: glassFrag
+			fragBullets: 3
+      frontColor: f5a53d
+      backColor: f55a3b
+			status: burning
+	}
+   "titanium": {
+			type: BasicBulletType
+			speed: 20
+			lifetime: 200
+			bulletWidth: 2
+			bulletHeight: 2
+			damage: 95
+      fragBullet: glassFrag
+			fragBullets: 2
+	 }
+	}
+	requirements: [
+		{ item: "copper", amount: 65 }
+		{ item: "graphite" , amount: 30  }
+		{ item: "titanium" , amount: 45  }
+		{ item: "plastanium" , amount: 25  }
+	],
+	category: turret
+	research: meltdown
+}

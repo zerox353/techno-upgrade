@@ -1,0 +1,29 @@
+type: ChargeTurret
+name: Advence Arc
+Description: Advence version from arc. Target air.
+category: turret
+range: 130
+chargeTime: 50
+chargeMaxDelay: 30
+chargeEffect: 7
+shootType: arc
+recoilAmount: 2
+reload: 10
+cooldown: 0.03
+powerUse: 2.5
+shootShake: 5
+shootEffect: lightningShoot
+smokeEffect: lancerLaserShootSmoke
+chargeEffect: lancerLaserCharge
+chargeBeginEffect: lancerLaserChargeBegin
+heatColor: Color.red
+size: 2
+health: 1020
+shootSound: spark
+research: lancer
+requirements: [
+  lead/65
+  titanium/60
+  silicon/45
+  phase-fabric/25
+]

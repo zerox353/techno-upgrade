@@ -1,0 +1,72 @@
+{
+	type: BurstTurret
+	name: Nova
+	description: A larger, medium-range turret. Fires powerfulls bullets but slowing.
+	health: 950
+	size: 2
+	reload: 190
+	range: 170
+  inaccuracy: 5
+  targetAir: "false"
+  shots: 1
+	shootSound: bigshot
+	rotatespeed: 1.5
+	ammo: {
+		"graphite": {
+			type: BasicBulletType
+			speed: 2
+			lifetime: 90
+			bulletWidth: 16
+			bulletHeight: 16
+			damage: 65
+      hitEffect: flakExplosion
+		},
+	"pyratite": {
+			type: BasicBulletType
+			speed: 2
+			lifetime: 90
+			bulletWidth: 16
+			bulletHeight: 16
+			damage: 60
+      hitEffect: flakExplosion
+      frontColor: f5a53d
+      backColor: f55a3b
+      status: burning
+		},
+  "silicon": {
+			type: BasicBulletType
+			speed: 2.2
+			lifetime: 100
+			bulletWidth: 16
+			bulletHeight: 16
+			damage: 55
+      hitEffect: flakExplosion
+      homingPower: 2
+		},
+  "thorium": {
+			type: BasicBulletType
+			speed: 2
+			lifetime: 90
+			bulletWidth: 16
+			bulletHeight: 16
+			damage: 75
+      hitEffect: flakExplosion
+  	},
+  "blast-compound": {
+			type: BasicBulletType
+			speed: 1.9
+			lifetime: 95
+			bulletWidth: 17
+			bulletHeight: 17
+			damage: 75
+      hitEffect: blastExplosion
+	 },
+	}
+	requirements: [
+		{ item: "copper", amount: 120 }
+		{ item: "graphite" , amount: 60  }
+		{ item: "titanium" , amount: 65  }
+	],
+	category: turret
+	research: hail
+}

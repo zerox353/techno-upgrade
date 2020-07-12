@@ -1,0 +1,20 @@
+name: Liquid Teleporter 
+description: "Advenced liquid transporte block. Teleporte liquid to a connected liquid teleporter over several tiles. Requires heel amounts of power."
+type: LiquidBridge
+health: 50
+size: 1
+range: 30
+buildCostMultiplier: 0.325
+baseExplosiveness: 15
+liquidCapacity: 20
+consumes: {
+  power: 2
+}
+requirements: [
+  metaglass/20
+  platinum/8
+  silicon/15
+  supra-phase-fabric/5
+]
+category: liquid
+research: phase-conduit

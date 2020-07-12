@@ -1,0 +1,53 @@
+{
+	"type": "ImpactReactor",
+	"name": "Radio Impact Reactor",
+	"description": "An large advenced generator, capable of creating massive amounts of power at peak efficiency. Requires a significant power input to kickstart the process.",
+	"health": 1000,
+	"itemCapacity": 10,
+	"size": 4,
+	"hasLiquids": true,
+	"powerProduction": 182,
+	"itemDuration": 180,
+	"generateEffect": "nuclearsmoke",
+	"plasma0": "7ddb67",
+	"plasma1": "afeca0",
+	"plasma2": "c7ec82",
+	"plasma3": "d4ef9f",
+ "consumes": {
+  "power": 25, 
+  "item": "uranium",
+  "liquid": {
+			"liquid": "cryofluid",
+			"amount": 0.25
+		}
+	},
+	"requirements": [
+	    {
+			"item": "lead",
+			"amount": 550
+		},
+		{
+			"item": "metaglass",
+			"amount": 260
+		},
+		{
+			"item": "graphite",
+			"amount": 450
+		},
+		{
+			"item": "uranium",
+			"amount": 100
+		},
+		{
+			"item": "silicon",
+			"amount": 350
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 260
+		}
+	],
+	"category": "power",
+	"research": "impact-reactor",
+	"idleSound": "EnergyLoop2",
+}

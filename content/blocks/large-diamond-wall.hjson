@@ -1,0 +1,14 @@
+name: Diamond Wall
+description: An very extremely durable defensive block. Even type frome surge wall. Spans multiple tiles.
+type: SurgeWall
+lightningChance: 0.26
+lightningDamage: 10
+lightningLenght: 20
+health: 4400
+size: 2
+requirements: [
+   surge-alloy/8
+   diamond/20
+]
+category: defense
+research: diamond-wall

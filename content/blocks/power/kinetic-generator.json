@@ -1,0 +1,35 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "Kinetic Generator",
+	"description": "Generate kinetic power with 2 copper.",
+	"health": 160,
+	"itemCapacity": 10,
+	"size": 2,
+	"hasLiquids": "false",
+	"powerProduction": 5,
+	"itemDuration": 250,
+	"generateEffect": "hitFuse",
+  "consumes": {
+  "items": {
+    "items": [
+      "copper/2"
+    ]
+  }
+}
+	"requirements": [
+	    {
+			"item": "copper",
+			"amount": 40
+		},
+		{
+			"item": "lead",
+			"amount": 50
+		},
+		{
+			"item": "graphite",
+			"amount": 35
+		},
+	],
+	"category": "power",
+	"research": "rtg-generator",
+}

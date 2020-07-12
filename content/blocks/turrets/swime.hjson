@@ -1,0 +1,58 @@
+{
+	type: BurstTurret
+	name: Swime
+	description: A small, medium-range turret. Fires multiples bullets but inaccuracy.
+	health: 380
+	size: 1
+	reload: 40
+	range: 150
+  inaccuracy: 20
+  shots: 8
+	shootSound: shootSnap
+	rotatespeed: 2
+	ammo: {
+		"lead": {
+			type: BasicBulletType
+			speed: 4
+			lifetime: 55
+			bulletWidth: 5
+			bulletHeight: 5
+			damage: 3
+		},
+	  "graphite": {
+			type: BasicBulletType
+			speed: 4
+			lifetime: 55
+			bulletWidth: 5
+			bulletHeight: 5
+			damage: 4
+		},
+    "pyratite": {
+			type: BasicBulletType
+			speed: 4
+			lifetime: 55
+			bulletWidth: 5
+			bulletHeight: 5
+			damage: 4
+      frontColor: f5a53d
+      backColor: f55a3b
+			status: burning
+		},
+    "metaglass": {
+			type: BasicBulletType
+			speed: 4
+			lifetime: 55
+			bulletWidth: 5
+			bulletHeight: 5
+	 		damage: 5
+	    fragBullet: glassFrag
+			fragBullets: 6
+		},
+	},
+	requirements: [
+		{ item: "copper", amount: 45 }
+		{ item: "graphite" , amount: 10  }
+	],
+	category: turret
+	research: scorch
+}

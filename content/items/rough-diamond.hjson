@@ -1,0 +1,7 @@
+type: resource
+name: Rough Diamond
+description: Resistant ore used especially in defense and attack,no usable.
+hardness: 5
+cost: 5
+color: a0bed9
+radioactivity: 0.05

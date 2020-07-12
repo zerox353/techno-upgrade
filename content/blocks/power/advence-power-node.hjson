@@ -1,0 +1,16 @@
+type: PowerNode
+name: Advence Power Node
+description: An advenced large power node with very greater range.
+laserRange: 14
+maxNodes: 40
+size: 2
+health: 180
+insulated: false
+requirements: [
+  lead/12
+  titanium/6
+  silicon/10
+  phase-fabric/5
+]
+category: power
+research: surge-tower

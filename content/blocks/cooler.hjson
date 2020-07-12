@@ -1,30 +1,24 @@
-type: GenericSmelter 
-name: cooler
-description: cooled cryofluid 
-liquidCapacity: 50
+type: GenericCrafter
+name: Cooler
+description: Create cryofluid by cooling water without using titanium.
 size: 2
 hasPower: true
 hasLiquids: true
-hasItems: true
-craftTime: 50
-updateEffect: hitLiquid
+hasItems: false
+craftTime: 60
+liquidCapacity: 80
+updateEffect: freezing
 consumes: {
-  power: 0.5
-  liquid: cryofluid/0.1
-  items: {
-  items: [
-      sand/1
-   ]
-}
- 
+  power: 1.2
+  liquid: water/0.4
 }
 requirements: [
-  platinum/50
-  metaglass/20
-  gold/100
+  metaglass/70
+  platinum/75
+  silicon/45
 ]
-category: crafting
+category: crafting 
 research: cryofluidmixer
-idleSound: respawning
-idleSoundVolume: 0.5
-outputItem: solid cooler/1
+idleSound: none 
+idleSoundVolume: 0.2
+outputLiquid: cryofluid/12

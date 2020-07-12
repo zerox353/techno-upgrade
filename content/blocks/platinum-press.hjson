@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Platinum Press 
+description: presses lead in metal as resistant as platinum
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 50
+updateEffect: plasticburn
+consumes: {
+  power: 0.5
+  items: {
+    items: [
+      lead/3
+    ]
+  }
+}
+requirements: [
+  copper/45
+  graphite/50
+  titanium/35
+]
+category: crafting 
+research: multi-press
+idleSound: machine
+idleSoundVolume: 0.2
+outputItem: platinum/1

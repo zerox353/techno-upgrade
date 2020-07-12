@@ -1,0 +1,19 @@
+name: Advence Distributor 
+description: An advenced distributor, splits items to up to 11 othor directions equally.
+//, and can store a small number of items as a buffer.
+//capacity: 45
+type: Router
+//ItemBuffer: 45// Doesn't work
+itemCapacity: 45// Doesn't work
+hasItems: true
+//unloadable: true//breaks
+health: 320
+size: 3
+buildCostMultiplier: 1.1
+requirements: [
+  copper/4
+  lead/4
+  titanium/4
+]
+category: distribution
+research: distributor

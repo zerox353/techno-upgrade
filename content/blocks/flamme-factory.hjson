@@ -1,0 +1,25 @@
+name: Flamme Factory
+description: Produces incendiary unite.
+type: UnitFactory
+unitType: flamme
+size: 2
+produceTime: 800
+maxSpawn: 2
+consumes: {
+  power: 0.6
+  items: {
+    items: [
+      silicon/10
+      titanium/10
+      pyratite/5
+    ]
+  }
+}
+category: units
+research: revenant-factory
+requirements: [
+  lead/45
+  titanium/35
+  silicon/50
+  plastanium/20
+]

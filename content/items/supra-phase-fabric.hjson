@@ -1,0 +1,8 @@
+type: material 
+name: Supra Phase Fabric
+description: A advence substance used in advenced electronics and self-repairing technology.
+hardness: 1
+cost: 1
+color: c1e6d3
+explosiveness: 0.1
+radioactivity: 0.8

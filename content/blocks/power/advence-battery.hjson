@@ -1,0 +1,19 @@
+name: Advence Battery
+description: Stores much more power than a large battery.
+type: Battery
+health: 500
+size: 4
+buildCostMultiplier: 0.35
+emptyLightColor: f7c265
+fullLightColor: fa9566
+consumes: {
+  powerBuffered: 500000
+}
+requirements: [
+  lead/50
+  titanium/25
+  silicon/35
+  phase-fabric/15
+]
+category: power
+research: advence-power-node

@@ -1,27 +1,28 @@
-type: GenericSmelter
-name: purifier
-description: purified uraninite and extract uranium 
-size: 2
+type: GenericCrafter
+name: Purifier
+description: purified rough diamond into pure diamond
+size: 3
 hasPower: true
 hasLiquids: false
 hasItems: true
-craftTime: 60
-updateEffect: reactorsmoke
+craftTime: 40
+updateEffect: purify
 consumes: {
-  power: 0.6
+  power: 0.5
   items: {
     items: [
-      uraninite/2
+      rough-diamond/2
     ]
   }
 }
 requirements: [
-  lead/200
-  gold/120
-  platinum/110
+  lead/115
+  platinum/95
+  thorium/80
+  silicon/50
 ]
 category: crafting 
-research: pyratite-mixer 
-idleSound: respawning
-idleSoundVolume: 0.5
-outputItem: uranium/1
+research: alloy-smelter
+idleSound: machine
+idleSoundVolume: 0.2
+outputItem: diamond/2

@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Diamond Press
+description: Compresses chunks of graphite into pure sheets of diamond.
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 60
+updateEffect: generatespark
+consumes: {
+  power: 2
+  items: {
+    items: [
+      graphite/3
+    ]
+  }
+}
+requirements: [
+  lead/120
+  graphite/95
+  platinum/85
+  silicon/60
+]
+category: crafting 
+research: platinum-press
+idleSound: machine
+idleSoundVolume: 0.2
+outputItem: diamond/1

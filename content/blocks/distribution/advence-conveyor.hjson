@@ -1,0 +1,12 @@
+type: Conveyor
+name: Advence Conveyor
+description: Heel health, a little faster than titanium conveyor.
+health: 200 
+requirements: [
+  lead/1
+  platinum/1
+  thorium/1
+]
+category: distribution
+speed: 0.11
+research: armored-conveyor

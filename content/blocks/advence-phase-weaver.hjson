@@ -1,0 +1,30 @@
+type: GenericSmelter
+name: Advence Phase Weaver 
+description: Upgrade phase fabric from radioactive uranium, diamond and platinum. Requires massive amounts of power to function.
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 90
+updateEffect: nuclearsmoke
+consumes: {
+  power: 6
+  items: {
+    items: [
+      phase-fabric/3
+      platinum/3
+      uranium/2
+      diamond/4
+    ]
+  }
+}
+requirements: [
+  lead/75
+  thorium/60
+  phase-fabric/40
+]
+category: crafting 
+research: purifier
+idleSound: machine
+idleSoundVolume: 0.2
+outputItem: supra-phase-fabric/1

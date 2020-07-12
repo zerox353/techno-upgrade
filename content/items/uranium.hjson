@@ -1,8 +1,8 @@
-type: resource
-name: uranium
-description: ore using in advence combustion,heel radioactive
-hardness: 1
-cost: 1
-color: 388c2b
-explosiveness: 0.45
-radioactivity: 1.2
+type: material 
+name: Uranium
+description: More radioactive ore than thorium,used for advanced machine building and as combustion.
+hardness: 4
+cost: 4
+color: 5da133
+radioactivity: 1.4
+explosiveness: 0.25

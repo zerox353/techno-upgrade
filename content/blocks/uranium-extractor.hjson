@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Uranium Extractor 
+description: extract uranium frome thorium
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 65
+updateEffect: reactorsmoke
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      thorium/2
+    ]
+  }
+}
+requirements: [
+  lead/95
+  silicon/60
+  platinum/40
+  plastanium/25
+]
+category: crafting 
+research: alloy-smelter
+idleSound: machine
+idleSoundVolume: 0.2
+outputItem: uranium/1

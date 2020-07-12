@@ -1,6 +1,6 @@
-type: material
-name: platinum
-description: ore using in resource production and ammo
+type: material 
+name: Platinum
+description: A little more resistant than titanium.
 hardness: 3
-cost: 2
-color: b6bec4
+cost: 3
+color: babec5

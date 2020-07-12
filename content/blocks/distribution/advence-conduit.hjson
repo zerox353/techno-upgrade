@@ -1,0 +1,16 @@
+type: Conduit
+health: 250
+name: Advence Conduit
+solid: true
+floating: true
+liquidCapacity: 18
+liquidPressure: 2
+buildCostMultiplier: 0.5
+description: Heel health,faster than pulse conduit.
+requirements: [
+  metaglass/1
+  platinum/1
+  thorium/2
+]
+category: liquid
+research: plated-conduit

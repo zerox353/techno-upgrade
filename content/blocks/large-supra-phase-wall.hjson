@@ -1,0 +1,12 @@
+name: Supra Phase Wall
+description: A strong défensive block. Deflects most bullets upon impact. Spans multiple tiles.
+type: DeflectorWall
+maxDamageDeflect: 40
+health: 3200
+size: 2
+insulated: true
+requirements: [
+  supra-phase-fabric/24
+]
+category: defense
+research: supra-phase-wall

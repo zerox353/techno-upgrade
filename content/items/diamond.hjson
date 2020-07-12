@@ -1,6 +1,6 @@
-type: material
-name: diamond
-description: powerfull ore and thoug,using in advence bulding 
+type: material 
+name: Diamond
+description: Resistant ore used especially in defense and attack.
 hardness: 1
 cost: 1
-color: 63c3ff
+color: b3dbff
